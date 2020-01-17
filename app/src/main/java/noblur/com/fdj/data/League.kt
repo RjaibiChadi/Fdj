@@ -7,9 +7,11 @@ import androidx.room.PrimaryKey
 /**
  * Model class for a League.
  *
- * @param id_league       title of the task
- * @param str_league description of the task
- * @param id          id of the task
+ * @param id                id of the league in database
+ * @param id_league         id of the league
+ * @param str_league        name of the league
+ * @param strSport          type of league
+ * @param strLeagueAlternate
  */
 @Entity
 data class League(
